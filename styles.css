@@ -118,6 +118,9 @@ header ul li a:hover{
     color:#fff;
     font-size: x-large;
 }
+.wrapper .content .info button a:hover{
+    color:blueviolet;
+}
 .wrapper .content .info button:hover{
     color:blueviolet;
     border: blueviolet 2px solid;
