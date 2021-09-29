@@ -46,7 +46,11 @@ header ul li a:hover{
     background: blueviolet;
     border-radius: 20%;
 }
-
+@media(min-width:200px) and (max-width:952px){
+    header ul{
+        display: none;
+    }
+}
 .wrapper {
     display: flex;
     
@@ -60,6 +64,24 @@ header ul li a:hover{
 
 .profile{
     width:40%;
+}
+@media (min-width:200px) and (max-width:1130px){
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .social-links{
+        width:100%;
+    }
+    .content{
+        width: 100%;
+    }
+    
+    .profile{
+        width:100%;
+        align-self: center;
+    }
 }
 
 .wrapper .content .info{
@@ -122,4 +144,25 @@ header ul li a:hover{
     flex-direction: column;
     justify-content: space-around;    
 
+}
+@media (min-width:200px) and (max-width:1130px){
+    .social-links{
+        position: relative;
+        width:100%;
+    }
+    .social-links .links-bar{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 80%;
+        left: 20%;
+        justify-content: flex-start;
+    }
+    .social-links .links-bar img{
+        width: 35px;
+        height: 35px;
+        margin: 25px;
+        display: flex;   
+    }
 }
