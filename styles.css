@@ -109,10 +109,14 @@ header ul li a:hover{
 .wrapper .content .info button{
     margin-top: 80px;
     background-color: blueviolet;
-    font-size: x-large;
     color: #fff;
     padding: 15px;
     border-radius: 10px;
+}
+.wrapper .content .info button a{
+    text-decoration: none;
+    color:#fff;
+    font-size: x-large;
 }
 .wrapper .content .info button:hover{
     color:blueviolet;
