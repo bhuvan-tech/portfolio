@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: bhuvan.engineer
-Token: 2474dda2925d94b83f9e99a6e55497b8b09b1a26035d05fe97924bc2b2499529
